@@ -1,12 +1,9 @@
 <?php 
     //ini_set('display_errors',false);
-
-    public class city{
-
-        //défini les objets ville et département.
-        $ville = 'Bordeaux';
-        $departement = 'Gironde';
-
-        echo //continuer
-    }
+    require('ville.php');
+    
+    $City = New City();
+    $City->nom = 'Bordeaux';
+    $City->departement = 'Gironde';
+    echo $City->afficher();
 ?>
