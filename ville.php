@@ -1,9 +1,9 @@
 <?php
-    public class City{
+    class City{
 
         //défini les objets ville et département.
         public $ville;
-        public $departement
+        public $departement;
 
         //le this permet d'utiliser les objets 
         public function afficher():String{

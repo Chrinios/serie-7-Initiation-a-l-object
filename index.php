@@ -3,7 +3,7 @@
     require('ville.php');
     
     $City = New City();
-    $City->nom = 'Bordeaux';
+    $City->ville = 'Bordeaux';
     $City->departement = 'Gironde';
     echo $City->afficher();
 ?>
